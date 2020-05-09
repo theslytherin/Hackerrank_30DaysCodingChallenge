@@ -1,0 +1,12 @@
+import math
+import os
+import random
+import re
+import sys
+
+
+
+N = int(input().strip())
+
+for i in range(1, 11):
+    print("{} x {} = {}".format(N, i, N * i))
