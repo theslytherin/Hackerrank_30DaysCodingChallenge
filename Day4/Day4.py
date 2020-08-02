@@ -6,7 +6,7 @@ class Person:
         # Add some more code to run some checks on initialAge
     def amIOld(self):
         if self.age < 13:
-            print("You are young")
+            print("You are young.")
         elif self.age < 18:
             print("You are a teenager")
         else:
