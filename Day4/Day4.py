@@ -2,7 +2,7 @@ class Person:
     def __init__(self,initialAge):
         self.age = initialAge if initialAge >= 0 else 0
         if initialAge < 0:
-            print("Age is not valid, setting age to 00.")
+            print("Age is not valid, setting age to 0.")
         # Add some more code to run some checks on initialAge
     def amIOld(self):
         if self.age < 13:
